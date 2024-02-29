@@ -11,7 +11,7 @@ instalador. A continuación, se enumeran las dependencias necesarias y cómo ins
 - flask: pip install Flask
 - pymongo: pip install pymongo
 - openai: pip install openai
-En el código se incluye una API-Key para el acceso a las funcionalidades del LLM.
+Se ha de actualizar el archivo recommender.py para con el API-KEY de openAI correspondiente
 También se incluye un export de los datos de MongoDB, para poder ser restaurados. La
 aplicación python está configurada para conectarse a la conexión local por defecto, esto es,
 localhost:27017.

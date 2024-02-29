@@ -24,7 +24,7 @@ translations = {
 }
 
 client = OpenAI(
-    api_key="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",
+    api_key="YOUR-OPENAI-API-KEY-HERE",
 )
 
 database = MongoClient ('mongodb://localhost:27017')["recommender"]
